@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Card from "@/components/Card"
+import DynamicCard from "@/components/DynamicCard";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
     <Card/>
     <Card/>
     <Card/>
-    
+    <DynamicCard title={"Card 1"} description={"This is first card"}/>
+    <DynamicCard title={"Card 2"} description={"This is Second card"}/>
+
 
     </div>
   );
