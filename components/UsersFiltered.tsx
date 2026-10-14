@@ -8,7 +8,7 @@ type User={
     username:String
 
 }
-export default  function FiteredUsers({users}:{users:User[]}){
+export default  function FilteredUsers({users}:{users:User[]}){
     const [searchTerm,setSearchterm]=useState("")
 
     const filteredUsers=users.filter((User)=>{
